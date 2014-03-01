@@ -1,0 +1,250 @@
+body{
+
+  background-image:url('../img/body_bg.jpg');
+  background-repeat:repeat;
+  font-family: 'Lato', sans-serif;
+}
+
+img.logo {
+  max-width: 180px;
+}
+
+
+.btn-watch {
+  font-family: 'Lato', sans-serif;
+  background-color: #fe5400;
+  color: #FFF;
+  display:inline-block;
+}
+
+.btn-watch:hover,
+.btn-watch:active,
+.btn-watch:focus{
+  font-family: 'Lato', sans-serif;
+  background-color: #fd864c;
+  color: #FFF;
+  display:inline-block;
+}
+
+
+button.itemButton {
+
+    padding: 10px;
+    border: none;
+    background: none;
+    padding-bottom: 5px;
+/*    width: 272px;
+    height: 204px;*/
+}
+
+.search_box,
+.watch_list,
+.about_area,
+.register_area {
+  padding-top: 100px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.search_results{
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 80px;
+}
+
+
+#final_message{
+  padding-bottom: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+input[name="search"]
+{
+width: 50%;
+
+}
+.container {
+max-width: 970px;
+}
+
+
+td {
+    padding-right: 20px;
+}
+
+.navbar-inner {
+  background-color: #7998c4; 
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+}
+
+span.navbarfont{
+
+    font-size:115%;
+}
+
+
+
+.navbar-default .nav-collapse collapse>li>a:hover {
+color: #FFF ;
+} 
+
+
+.navbar-default .navbar-nav>li>a {
+    line-height: 30px;
+    font-size: 90%;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+
+    color: #D8D8D8 ;
+}
+
+.navbar-default .navbar-nav>li>a.active {
+
+    color: #D8D8D8 ;
+}
+
+li {
+    padding-right: 50px;
+}
+
+.navbar-default {
+    background-color: #7998c4;
+    border: #FFF;
+
+}
+
+
+.navbar-header {
+  @elementHeight: 100px;
+  padding: ((@navbarHeight - @elementHeight) / 2 - 2) 5px ((@navbarHeight - @elementHeight) / 2 + 5);
+  font-size: 80px;
+  line-height: 50px;
+}
+
+
+
+.login_area {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 10px; 
+  padding-bottom: 50px;
+}
+
+.btn-default {
+  font-family: 'Lato', sans-serif;
+  background-color: #fe5400;
+  color: #FFF;
+}
+
+
+
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus{
+  font-family: 'Lato', sans-serif;
+  background-color: #fd864c;
+  color: #FFF;
+}
+
+
+.btn-delete {
+  font-family: 'Lato', sans-serif;
+  background-color: #0066CC;
+  color: #FFF;
+  width: 147px;
+}
+
+
+.btn-delete:hover,
+.btn-delete:active,
+.btn-delete:focus{
+  font-family: 'Lato', sans-serif;
+  background-color: #003399;
+  color: #FFF;
+}
+
+
+.navbar-default .navbar-nav>.active>a,  
+.navbar-default .navbar-nav>.active>a:focus  {
+  color: #000;
+  background-color: #708bb3;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #D8D8D8;
+    background-color: #708bb3;
+}
+
+
+
+/* Navbar
+-------------------------------------------------- */
+
+/*.navbar.navbar-static-top {
+    margin-bottom: 32px;
+}*/
+/*.navbar.navbar-default .navbar-inner {
+    background-color: #7998c4;
+    border-bottom: 1px solid rgb(88, 88, 88);
+}
+.navbar.default .navbar-inner .container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.navbar.navbar-default .navbar-inner {  
+    padding: 10px 0px 10px 0px;
+    background: #7998c4;    
+}*/
+/*.navbar.navbar-default .navbar-inner.sticky {
+    background: rgba(0,0,0,0.8);
+    border-bottom: 1px solid #252525;
+}*/
+/*.navbar-default .navbar-inner.sticky .container {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}*/
+
+/*.navbar-default .nav > li > a {
+
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.5);
+    opacity: .6;
+
+} */
+
+/*.navbar-default .navbar-nav>li>a {
+    line-height: 30px;
+    -webkit-font-smoothing: antialiased
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a.active {
+    color: #D8D8D8;
+
+}*/
+/*.navbar-default .dropdown-menu {
+  background: #252528;
+}
+.navbar-default .nav > li > .dropdown-menu::after {
+  border-bottom: 6px solid #252528;
+}
+.navbar-default .dropdown-menu li > a {
+  color: #fff;
+}
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+  text-decoration: none;
+}*/
+
+
