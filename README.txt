@@ -1,6 +1,7 @@
 README.txt
 
 2014 Mobile Web Front End Development College Intern position - Challenge
+Created April 2014
 
 by Ashley Montgomery / aemontgomery756@gmail.com
 
@@ -11,9 +12,6 @@ price of that item goes below 20% off, the user will be emailed saying
 that the item is on sale. This email will also provide the item's 
 zappos.com link so that the user can opt to visit zappos.com and purchase
 the item.
-
-Hosted on my Amazon EC2 Linux instance:
-http://ec2-54-85-7-160.compute-1.amazonaws.com/~amont/zappos_price_notify/html/login.html
 
 ________________________________________________________________________________
 User Login and Registration:
@@ -45,15 +43,9 @@ and compare the original price stored in the MySql database with the current
 price from the API and then it will send an email to the users signed up to watch that
 item. 
 
-*cron job will run the /php/checkPriceDrop.php every hour to check for an accurate
-current price
-
-0 0 * * * /home/amont/public_html/zappos_price_notifier/php/checkPriceDrop.php
-
 /php/checkPriceDropVans.php will perform the same functionality but again, it looks
 at the sample JSON data from the /php/vansSearch.txt file instead of real data from 
 the Zappo's API.
-
 
 ________________________________________________________________________________
 Areas to Expand:

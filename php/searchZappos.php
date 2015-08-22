@@ -109,9 +109,10 @@
 
 <?php
 //error_reporting(0);
+require('apiKey.php');
 $query = $_POST['search'];
 $response = "";
-$apiKey = "5b8384087156eb88dce1a1d321c945564f4d858e";
+
 
 $url = "http://api.zappos.com/Search?term=".$query."&key=".$apiKey;
 
